@@ -1,0 +1,136 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    text-align: center;
+    margin-top: 1vh;
+    color: blue;
+    font-size: 25px;
+    font-family: monospace;
+}
+nav{
+    border: 1px solid rgb(255, 166, 0);
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-right: 768px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: 1vh;
+    overflow: hidden;
+    display: flex;
+}
+nav ul li a {
+    display: flex;
+    color: rgb(10, 0, 0);
+    padding-bottom: 1vh;
+    margin-left: 50px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+.dropdown-content a {
+    color: black;
+    padding: 1vh ;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #ff0000;
+}
+.section{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.section2{
+    margin-right: 300px;
+}
+.object{
+    text-decoration: underline;
+    font-size: 19px;
+    margin-left: 10px;
+}
+.objective{
+    font-size: 17px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.artical{
+    font-size: 17px;
+}
+.image{
+    height: 20vh;
+    clip-path: circle(45%);
+    transition: 1.5s ease;
+    filter: brightness(90%);
+    width: 130px;
+    margin-top: 10px;
+    height: 150px;
+    margin-left: 10px;
+}
+.image:hover{
+    clip-path: circle(100%);
+    border-radius: 10px;
+}
+.photo{
+    width: 150px;
+    height: 200px;
+    margin-top: -90px;
+    float: right;
+    border: 2px solid black;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.Education{
+    text-decoration: underline;
+    font-size: 19px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+#Degree{
+    margin-left: 30px;
+    margin-top: 10px;
+    list-style-type: circle;
+}
+#Intermediate{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+#SSC{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.brack{
+    margin-top: 10px;
+    border: 1px black solid;
+}
+.project{
+    margin-left: 30px;
+}
+.contant{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+.imgsocial{
+    margin-left: 50px;
+}
+.socialimg{
+    margin-top: 10px;
+    height: 35px;
+}
