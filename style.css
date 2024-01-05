@@ -199,3 +199,34 @@ nav ul li a:hover{
     transform: scale(1.1);
     border-radius: 20px;
 }
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 1, 0.7);
+}
+.modal img {
+    display: block;
+    margin-left: 40%;
+    margin-top: 100px;
+    border-radius: 10px;
+    width: 350px;
+}
+.close {
+    color: #fff;
+    float: right;
+    font-size: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover,
+.close:focus {
+    color: #ccc;
+    text-decoration: none;
+}
