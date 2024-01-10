@@ -93,7 +93,7 @@ nav ul li a:hover{
 .photo{
     width: 150px;
     height: 200px;
-    margin-top: -200px;
+    margin-top: -250px;
     float: right;
     border: 2px solid black;
     margin-right: 10px;
@@ -163,7 +163,6 @@ nav ul li a:hover{
 }
 .container{
     display: flex;
-    flex-direction: row;
     margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -175,31 +174,13 @@ nav ul li a:hover{
     font-family: cursive;
 }
 .tv{
-    float: left;
-    margin-left: 40px;
-    margin-right: 10px;
+    margin-left: 100px;
     height: 200px;
-    transition: transform 0.3s ease;
 }
 .tv:hover{
     cursor: pointer;
-    transform: scale(1.1);
     border-radius: 20px;
 }
-.tv1{
-    float: right;
-    margin-left: 40px;
-    margin-right: 10px;
-    height: 200px;
-    width: 360px;
-    transition: transform 0.3s ease;
-}
-.tv1:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    border-radius: 20px;
-}
-
 .modal {
     display: none;
     position: fixed;
@@ -213,7 +194,7 @@ nav ul li a:hover{
 }
 .modal img {
     display: block;
-    margin-left: 40%;
+    margin-left: 35%;
     margin-top: 100px;
     border-radius: 10px;
     width: 350px;
